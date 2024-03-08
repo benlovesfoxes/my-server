@@ -1,0 +1,84 @@
+
+reloadConfig: '&aYou have reloaded the config'
+noPermission: '&4You do not have the permission to execute this command'
+
+cannotOpenChest: '&cYou do not have access to interact with the ender chest.'
+
+purgeMessage: '&aYou have purged {total} inactive accounts for time {hours} hours.'
+purgeConfirmMessage: '&cYou are using a very short time frame for purging data: {hours} hours. If you wish to proceed, add -confirm to the end of the command.'
+
+playerDoesNotExist: '&cThe player {player} does not exist'
+cannotOpen: '&cThis container is currently being backed up. Please retry shortly.'
+
+clearRequireConfirm: '&cYou are about to clear {player}`s ender chest vault. This action requires confirmation. Please add -confirm at the end of the command.'
+clearConfirm: '&cYou have successfully cleared {player}`s ender chest vault.'
+
+# Right-clicking an ender chest will open the ender chest vault, disabling the vanilla ender chest.
+rightClickEnderOpen: true
+
+# You can use {player} to display the player's name, and {page} to display the current open page.
+inventoryTitle: '&aEnderChest Vault - {page}'
+
+# In minutes. Stores inventories not interacted with in this amount of time.
+saveInventoryBackupTime: 30
+
+# How many times in minutes the plugin checks for inactive chests.
+timerCheck: 30
+
+# Players who haven't logged in for this specific amount of time will have their ender chest vault data purged. Checked once per server start.
+# In hours. Ex: 730 hours = 1 month. 0 or less will deactivate this setting.
+inactiveTimePurge: 0
+
+# One row can have a maximum of 9 items. Anything over 9 on a row will be ignored.
+# You can have a maximum of 6 rows. Anything over 6 will be ignored.
+# You can use ids from the buttons config section below.
+# Remove the # from the example if you want to use it.
+# 'slot' is a default value. If you don't use a valid item from the list below, it'll become a normal slot instead.
+enderChestGUIFormat:
+#- 'slot slot slot slot slot slot slot slot slot'
+#- 'slot slot slot slot slot slot slot slot slot'
+#- 'slot slot slot slot slot slot slot slot slot'
+#- 'slot slot slot slot slot slot slot slot slot'
+#- 'slot slot slot slot slot slot slot slot slot'
+#- 'filler filler filler backArrow filler forwardArrow filler filler filler'
+
+# You can add any items you need.
+# Items from this list cannot be taken from the inventory.
+# You can run any command under commands - {player} can be used for the name of the player.
+# Actions that can be used: %PAGE_NEXT%, %PAGE_BACK%, %INVENTORY_CLOSE%.
+buttons:
+#   filler:
+#      display: ' '
+#      material: PAPER
+#      materialData: 0
+#      hasGlow: false
+#      lore: ''
+#      commands: ''
+#   forwardArrow:
+#      display: '&aGo to the next page'
+#      material: ARROW
+#      materialData: 0
+#      hasGlow: false
+#      lore: ''
+#      commands:
+#      - '%PAGE_NEXT%'
+#   backArrow:
+#      display: '&aGo back a page page'
+#      material: ARROW
+#      materialData: 0
+#      hasGlow: false
+#      lore: ''
+#      commands:
+#      - '%PAGE_BACK%'
+#   funnyButton:
+#      display: '&cDo not click'
+#      material: BARRIER
+#      materialData: 0
+#      hasGlow: false
+#      lore: ''
+#      permission: super.awesome
+#      commands:
+#      - 'ban {player} Told you'
+
+#Do not modify or you risk player data loss
+config-version: 0.0

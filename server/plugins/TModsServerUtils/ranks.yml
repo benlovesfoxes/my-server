@@ -1,0 +1,62 @@
+Players:
+  a2221e27-8839-3aaa-ae93-5fe43888f652: Guest
+  96569233-9bb8-387c-8e1d-bfe0e0cdcd06: owner
+  17ab1ddc-eece-3072-b904-ae37136c54f2: Guest
+  04e5f1e0-768c-3b8c-9e43-41728fea69fe: Guest
+  633a9aeb-121b-3465-b5b5-597a105af998: coowner
+  11bee6ff-4b89-3e92-ae19-10c024f716a4: Guest
+  b9b618bd-671c-303a-9900-ce0b3f6de348: Guest
+  f31095cf-8fd8-395a-a7e2-930e712c4179: coowner
+  7098c73b-fc03-307d-90f3-0f28d8cded80: Guest
+  9a590071-d754-37ec-9fce-2bfc9e5e05de: Guest
+  09d99a3f-b7f5-3038-b7b8-903a31e18416: Guest
+  5c603eca-4ea3-398c-bfa9-be573c17464e: tester
+  df3547ef-c7af-3060-a28c-d96d5ac0162e: tester
+  cd0936a3-0032-342a-b567-89d7e868666c: tester
+  d018fedc-7436-32db-9105-6651f0b46116: tester
+  9748518e-f906-35f0-9a77-146549a2681a: tester
+  05b80580-1b43-32c0-8247-6d1c061de73a: tester
+  1474657b-2fba-3617-b009-6f7b348167a6: Guest
+Ranks:
+  Guest:
+    name: Guest
+    permissions: []
+    prefix: '[Guest] '
+    suffix: ': '
+    default: true
+  coowner:
+    name: coowner
+    permissions: []
+    prefix: '§6[Co-Owner] '
+    suffix: '§f[~] '
+    default: false
+  admin:
+    name: admin
+    permissions: []
+    prefix: '§a[Admin] '
+    suffix: '§f[~] '
+    default: false
+  trickster:
+    name: trickster
+    permissions: []
+    prefix: '§d[Trickster] '
+    suffix: '§f[~] '
+    default: false
+  tester:
+    name: tester
+    permissions: []
+    prefix: '§b[Tester] '
+    suffix: '§f[~] '
+    default: false
+  cheater:
+    name: cheater
+    permissions: []
+    prefix: '§4[Cheater] '
+    suffix: '§f[~] '
+    default: false
+  owner:
+    name: owner
+    permissions: []
+    prefix: '[Owner] '
+    suffix: '[~] '
+    default: false

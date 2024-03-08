@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1709572684934
+  login: 1709572640746
+money: '0'
+last-account-name: YiggEagler713
+logoutlocation:
+  world: 7fa8cc01-1716-4165-bb71-070a80afb1d4
+  world-name: MHS SMP
+  x: 176.69999998807907
+  y: 70.0
+  z: 268.66454703898887
+  yaw: -177.75
+  pitch: 40.95000457763672

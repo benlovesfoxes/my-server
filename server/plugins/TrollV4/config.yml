@@ -1,0 +1,31 @@
+# ###############################
+# #                             #
+# # TrollV4 by Presti           #
+# # Configuration File 4.5.18    #
+# #                             #
+# ###############################
+Plugin-Version: 4.5.18
+Language: US
+Custom-Item-Name: false
+UpdateChecker: true
+AutoUpdate: true
+Animations: false
+ASync: false
+Community-surprise: false
+DevJoinMessage: true
+downloader:
+  protocollib: true
+  libsdisguises: true
+  noteblockapi: true
+trolls:
+  hack:
+    time: 15
+  fakeinv:
+    time: 5
+  slipperyhands:
+    time: 1
+  tnttrace:
+    spawndelay: 2
+  spookyWorld:
+    generate: false
+    name: SpookyWorld

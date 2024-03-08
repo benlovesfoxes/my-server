@@ -1,0 +1,128 @@
+# SuperCore by Stefan923.
+
+Language Display Name: English
+Command:
+  AdminChat:
+    Format: '&3[&bSTAFF&3] %luckperms_prefix_element_highest% &7%playername%: &f%message%'
+    Format By Console: '&3[&bSTAFF&3] &cCONSOLE&7: &f%message%'
+  Broadcast:
+    Format: '&7(&3Broadcast&7) &f%message%'
+  Cooldown: '&8(&3!&8) &fYou must wait &b%cooldown% seconds &fto use the command again!'
+  DonorChat:
+    Format: '&3[&bDONOR&3] %luckperms_prefix_element_highest% &7%playername%: &f%message%'
+    Format By Console: '&3[&bDONOR&3] &cCONSOLE&7: &f%message%'
+  Fly:
+    Own Flight Mode Changed: '&8(&3!&8) &fYour flight mode has been %status%&f!'
+    Own Flight Mode Changed By: '&8(&3!&8) &fYour flight mode has been %status%&f
+      by &b%sender%&f!'
+    Others Flight Mode Changed: '&8(&3!&8) &b%target%&f''s flight mode has been %status%&f!'
+  Gamemode:
+    Own Gamemode Changed: '&8(&3!&8) &fYour gamemode has been set to &b%gamemode%&f!'
+    Others Gamemode Changed: '&8(&3!&8) &fYou set &b%playername%&f''s gamemode to
+      &3%gamemode%&f!'
+  God:
+    Own God Mode Changed: '&8(&3!&8) &fYour god mode has been %status%&f!'
+    Own God Mode Changed By: '&8(&3!&8) &fYour god mode has been %status%&f by &b%sender%&f!'
+    Others God Mode Changed: '&8(&3!&8) &b%target%&f''s god mode has been %status%&f!'
+  Heal:
+    Self-Healed: '&8(&3!&8) &fYou have successfully healed yourself&f!'
+    Healed By: '&8(&3!&8) &fYou have been healed by &b%sender%&f!'
+    Healed Others: '&8(&3!&8) &fYou have successfully healed &b%target%&f!'
+  HelpOp:
+    Format: '&4&k|&cHelpOp&4&k|&r &7%playername%: &f%message%'
+    Format By Console: '&4&k|&cHelpOp&4&k|&r &7Console: &f%message%'
+  List:
+    Format:
+    - '&f&m---------&r&b[ &3&m--------------------&r &b]&f&m---------&r'
+    - '&8(&3!&8) &fThere are &b%list_size_supercore.list.default% &fplayers online!'
+    - '&7 - &fAdmins (&3%list_size_supercore.list.admin%&f): %list_supercore.list.admin%'
+    - '&7 - &fDonors (&3%list_size_supercore.list.donor%&f): %list_supercore.list.donor%'
+    - '&f&m---------&r&b[ &3&m--------------------&r &b]&f&m---------&r'
+    Name Color: '&b'
+    Separator: '&f, '
+  Nick:
+    Formatting Codes: '&8(&3!&8) &cYou are not allowed to use formatting codes in
+      nickname!'
+    Maximum Length: '&8(&3!&8) &cSpecified name exceeds the maximum length of &4%length%
+      &ccharacters!'
+  Seen:
+    Is Offline: '&8(&3!&8) &b%target% &fhas been &coffline &ffor %time%.'
+    Is Online: |-
+      &8(&3!&8) &b%target% &fhas been &aonline &ffor %time%.
+       &7- &fIP Address: &b%ipaddress%
+       &7- &fLocation: &b%location%
+    Unknown Player: '&8(&3!&8) &b%target% &fhas never joined this server.'
+  TpToggle:
+    Own Teleportation Toggled: '&8(&3!&8) &fYour teleportation has been %status%&f!'
+    Own Teleportation Toggled By: '&8(&3!&8) &fYour teleportation has been %status%&f
+      by &b%sender%&f!'
+    Others Teleportation Toggled: '&8(&3!&8) &b%target%&f''s teleportation has been
+      %status%&f!'
+  WhoIs:
+    Format:
+    - '&f&m---------&r&b[ &3&m--------------------&r &b]&f&m---------&r'
+    - '&8(&3!&8) &fThere are informations about &b%playername%&f:'
+    - '&7 - &fIP Address: &3%ipaddress%'
+    - '&7 - &fLocation: &3%location%'
+    - '&7 - &fGamemode: &3%gamemode%'
+    - '&7 - &fHealth: &3%health%'
+    - '&7 - &fHunger: &3%hunger%'
+    - '&7 - &fGod mode: &3%godmode%'
+    - '&7 - &fFlying: &3%flying%'
+    - '&f&m---------&r&b[ &3&m--------------------&r &b]&f&m---------&r'
+General:
+  Already Using Language: '&8(&3!&8) &fYou are already using this language.'
+  Available Languages:
+    Syntax: '&8(&3!&8) &fAvailable languages are: '
+    Separator: '&f, '
+    Item Color: '&b'
+  Gamemode:
+    Adventure: adventure
+    Creative: creative
+    Spectator: spectator
+    Survival: Survival
+  Invalid Command Syntax: |-
+    &8(&3!&8) &cInvalid Syntax or you have no permission!
+    &8(&3!&8) &fThe valid syntax is: &b%syntax%
+  Language Changed: '&8(&3!&8) &fYou have set your language to &b%language%&f!'
+  Must Be Online: '&8(&3!&8) &cSpecified player must be online!'
+  Must Be Player: '&8(&3!&8) &cYou must be a player to do this!'
+  Nickname Changed: '&8(&3!&8) &fYour nickname has been set to &b%nickname%&f!'
+  Nickname Changed By: '&8(&3!&8) &fYour nickname has been set to &b%nickname%&f by
+    &3%sender%&f!'
+  No Permission: '&8(&3!&8) &cYou need the &4%permission% &cpermission to do that!'
+  Others Nickname Changed: '&8(&3!&8) &fYou have set &b%target%&f''s nickname to &3%nickname%&f!'
+  Repeated Message: '&8(&3!&8) &fYou can not write &cthe same message&f!'
+  Word Day: day
+  Word Days: days
+  Word Disabled: '&cdisabled'
+  Word Enabled: '&aenabled'
+  Word Hour: hour
+  Word Hours: hours
+  Word Minute: minute
+  Word Minutes: minutes
+  Word Month: month
+  Word Months: months
+  Word No: '&cno'
+  Word Second: second
+  Word Seconds: seconds
+  Word Year: year
+  Word Years: years
+  Word Yes: '&ayes'
+On Join:
+  Join Message: '&8(&3!&8) &a%playername% &fjoined the game!'
+On Quit:
+  Quit Message: '&8(&3!&8) &c%playername% &fleft the game!'
+Teleport:
+  Console Can Not Teleport: '&8(&3!&8) &fConsole &ccan not &fbe teleported!'
+  His Teleport Is Disabled: '&8(&3!&8) &b%target% &fhas &cdisabled &fteleportation!'
+  Teleported To Coords: '&8(&3!&8) &fYou have been teleported to &b%x% %y% %z%&f!'
+  Teleported To Player: '&8(&3!&8) &fYou have been teleported to &b%target%&f!'
+  Teleported Player To Coords: '&8(&3!&8) &fYou have teleported &b%target% &fto &b%x%
+    %y% %z%&f!'
+  Teleported Player To Player: '&8(&3!&8) &fYou have teleported &b%target1% &fto &b%target2%&f!'
+Update Checker:
+  Available: |-
+    &8(&3!&8) &fThere is a new version of &bSuperCore &favailable!
+    &8(&3!&8) &fDownload link: &b%link%
+  Not Available: '&8(&3!&8) &fThere''s no update available for &bSuperCore&f.'

@@ -1,0 +1,19 @@
+#----------------------------------------
+#----------- actual variables -----------
+#--------  %player% , %prefix%   --------
+#----------------------------------------
+
+config:
+  # this is experimental.
+  welcome-message:
+    # this is optional
+    # this message is for when a clan member joins to the other clan users
+    enabled: true
+    message:
+      - "&f&lThe player %player% has been connected"
+  names-blocked:
+    # This cancels the creation of the clan if it uses one of these words below,
+    # if you deactivate it you will not be able to control the names of the clans
+    # if they have an insulting name.
+    enabled: true
+    blocked:

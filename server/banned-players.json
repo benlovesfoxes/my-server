@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "9c62e1ac-16bb-41fe-8b7e-b4692864b2c2",
+    "name": "Ninja",
+    "created": "2024-03-01 13:27:11 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "884a0d8c-27fa-4824-b3ef-94f50ea94b5f",
+    "name": "list",
+    "created": "2024-03-01 13:29:29 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "650bf366-b3dc-4a30-b2ba-21d127468c4d",
+    "name": "Remove",
+    "created": "2024-03-01 13:29:52 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "NINJA_BOI1234"
+  }
+]

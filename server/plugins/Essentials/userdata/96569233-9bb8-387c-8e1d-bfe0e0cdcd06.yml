@@ -1,0 +1,44 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1709907476204
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1709907832803
+  login: 1709904870460
+  kits:
+    notch: 1709841290078
+    tools: 1709841301688
+    dtools: 1709841305899
+    color: 1709841600850
+    firework: 1709841613252
+money: '115200.0'
+last-account-name: CrispBaconytlol
+logoutlocation:
+  world: 7fa8cc01-1716-4165-bb71-070a80afb1d4
+  world-name: MHS SMP
+  x: 102.6459508099839
+  y: 80.0
+  z: 332.3385370501494
+  yaw: 354.4500427246094
+  pitch: 9.150009155273438
+lastlocation:
+  world: 7fa8cc01-1716-4165-bb71-070a80afb1d4
+  world-name: MHS SMP
+  x: 120.89147636533676
+  y: 79.0
+  z: 327.7334454703309
+  yaw: 38.9447021484375
+  pitch: 8.850000381469727

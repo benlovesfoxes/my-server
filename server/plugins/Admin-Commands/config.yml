@@ -1,0 +1,8 @@
+OpBan: false
+OpKick: true
+OpFreeze: true
+OpMute: true
+OpWarn: true
+OpIpBan: false
+OpLaunch: true
+LaunchDamage: false

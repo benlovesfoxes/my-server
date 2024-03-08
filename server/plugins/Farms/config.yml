@@ -1,0 +1,37 @@
+debug: false
+
+vault:
+  enabled: true
+  prices:
+    BLOCKS: 10.0
+    DROPS: 10.0
+  # The math expression will be newLevel * levelUp
+  # For example if you set to 100 the levelUp price to level 5 will be 500
+  levelUp: 100
+
+worldguard:
+  enabled: true
+
+# Material list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# Mutation schema: PLACEABLE -> PLACED
+# You can view the placed item watching seeds in debug option(F3) [https://i.gyazo.com/8924a4e24cf3eb86010d1f1083300320.png]
+items:
+  WHEAT: "WHEAT"
+  POTATO: "POTATOES"
+  CARROT: "CARROTS"
+  IRON_ORE: "IRON_ORE"
+
+# Percent for each level of how many blocks should it break
+# You can't add or remove levels
+# Example: There are 7 blocks to mine, it will mine only the 15% of them at level 1
+levels:
+  1: 15.0
+  2: 20.0
+  3: 35.0
+  4: 40.0
+  5: 50.0
+
+# Time in seconds of each task
+tasks:
+  grow: 5
+  collect: 10

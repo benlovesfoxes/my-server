@@ -1,0 +1,6 @@
+Background_Item:
+  Type: STAINED_GLASS_PANE
+  Data: 15
+  Durability: 15
+  Amount: 1
+  HideName: true

@@ -1,0 +1,56 @@
+groups:
+  Owner:
+    default: false
+    permissions:
+    - '*' # Full server control
+  CoOwner:
+    default: false
+    permissions:
+    - '*' # Full server control
+  Admin:
+    default: false
+    permissions:
+    - essentials.* # Grant all Essentials commands to Admin
+    - bukkit.command.* # Grant all Bukkit commands to Admin
+    - yourplugin.* # Replace with your specific admin plugin permissions
+  Player:
+    default: true
+    permissions:
+    - essentials.help
+    - essentials.motd
+    - essentials.list
+    - essentials.msg
+    - essentials.spawn
+    - essentials.tp
+    - essentials.back
+    - essentials.sethome
+    - essentials.home
+    - essentials.kit
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.balance
+    - essentials.pay
+    - essentials.balancetop
+    - essentials.balancetop.other
+    - essentials.msgtoggle
+    - essentials.afk
+    - essentials.nick
+    - essentials.realname
+    - essentials.whois
+    - essentials.msgspy
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.mail.recieve
+    - essentials.mail.clear
+    - essentials.warp
+    - essentials.delwarp
+    - essentials.warps
+    - essentials.tpa
+    - essentials.tpahere
+    - essentials.tpatoggle
+    - essentials.tpahereall
+    - essentials.msgtoggle
+    - essentials.me
+    - essentials.ignore
+    - essentials.balancetop
+    - essentials.balancetop.other

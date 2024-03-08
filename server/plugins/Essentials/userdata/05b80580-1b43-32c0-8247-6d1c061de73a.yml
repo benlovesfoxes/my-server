@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1709828868798
+  login: 1709827849543
+money: '0'
+last-account-name: mrduckys
+lastlocation:
+  world: 7fa8cc01-1716-4165-bb71-070a80afb1d4
+  world-name: MHS SMP
+  x: 64.86531631278342
+  y: 31.0
+  z: 212.77444511881194
+  yaw: 83.37969970703125
+  pitch: 18.149993896484375
+logoutlocation:
+  world: 7fa8cc01-1716-4165-bb71-070a80afb1d4
+  world-name: MHS SMP
+  x: 1.688164051249991E7
+  y: 66.0
+  z: -2.3313731654386126E7
+  yaw: 75.8076171875
+  pitch: 12.900009155273438

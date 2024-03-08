@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1709827801841
+  login: 1709826289125
+money: '0'
+last-account-name: DallasC
+lastlocation:
+  world: 7fa8cc01-1716-4165-bb71-070a80afb1d4
+  world-name: MHS SMP
+  x: 367.3787115913965
+  y: 64.0
+  z: 277.1167597329015
+  yaw: -9.591796875
+  pitch: 18.230440139770508
+logoutlocation:
+  world: 7fa8cc01-1716-4165-bb71-070a80afb1d4
+  world-name: MHS SMP
+  x: 249.40721669786012
+  y: 37.21599998474119
+  z: 2722.9134970347213
+  yaw: 2.849414110183716
+  pitch: 81.45001220703125

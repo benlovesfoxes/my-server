@@ -1,0 +1,45 @@
+ch:
+  messages:
+    console-message: '&c你必须是一名玩家才能执行此命令。'
+    reload-message: '&c插件已成功重新启动。'
+    createspawn-message: '&a生成点已成功创建。'
+    fall-message: '&c你掉入了虚空。'
+    no-spawn-message: '&c重生点不存在。'
+    wrongcommand: '&c该命令不存在。'
+    no-permission: '&c你没有权限执行该命令。'
+chile:
+  messages:
+    console-message: '&cWn, pa'' ejecutar esta weá, tení que ser un jugador po.'
+    reload-message: '&cLa weá del plugin se reinició de vio, ctm.'
+    createspawn-message: '&aLa cagó, el spawn quedó listo pal webeo.'
+    fall-message: '&cChucha, te fuiste a la chucha al vacío, weón.'
+    no-spawn-message: '&cLa wea del respawn no existe, po hueón.'
+    wrongcommand: '&cEsa weá de comando no existe, ctm.'
+    no-permission: '&cNi cagando tení permisos pa'' ejecutar esa wea, ql.'
+es:
+  messages:
+    console-message: '&cDebes ser un jugador para ejecutar este comando.'
+    reload-message: '&cEl plugin ha sido reiniciado correctamente.'
+    createspawn-message: '&aEl spawn ha sido creado correctamente.'
+    fall-message: '&cHas caído al vacío.'
+    no-spawn-message: '&cEl lugar de reaparición no existe.'
+    wrongcommand: '&cEse comando no existe.'
+    no-permission: '&cNo tienes permisos para ejecutar ese comando.'
+fr:
+  messages:
+    console-message: '&cVous devez être un joueur pour exécuter cette commande.'
+    reload-message: '&cLe plugin a été redémarré avec succès.'
+    createspawn-message: '&aLe point d''apparition a été créé avec succès.'
+    fall-message: '&cVous êtes tombé dans le vide.'
+    no-spawn-message: '&cLe point de réapparition n''existe pas.'
+    wrongcommand: '&cCette commande n''existe pas.'
+    no-permission: '&cVous n''avez pas la permission d''exécuter cette commande.'
+ge:
+  messages:
+    console-message: '&cDu musst ein Spieler sein, um diesen Befehl auszuführen.'
+    reload-message: '&cDas Plugin wurde erfolgreich neu gestartet.'
+    createspawn-message: '&aDer Spawn wurde erfolgreich erstellt.'
+    fall-message: '&cDu bist in die Leere gefallen.'
+    no-spawn-message: '&cDer Wiederbelebungsort existiert nicht.'
+    wrongcommand: '&cDieser Befehl existiert nicht.'
+    no-permission: '&cDu hast keine Berechtigung, diesen Befehl auszuführen.'

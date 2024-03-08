@@ -1,0 +1,15 @@
+PortalsV2: []
+Spawn:
+  actions:
+  - value:
+      destination:
+        id:
+          X: 2769119.0
+          Y: 63.0
+          Z: -611320.0
+          World: MHS SMP
+        type: 6
+  displayname: Spawn
+WarpSigns: []
+RandomTeleporter:
+  InteractBlocks: []

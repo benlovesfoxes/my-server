@@ -1,0 +1,12 @@
+Config:
+  prefix: '&c&lAnti&6&lVoid&a&lTP&9&lStyle &f>>'
+  language: en
+  fall-message-active: 'true'
+  messages:
+    console-message: '&cYou must be a player to execute this command.'
+    reload-message: '&cThe plugin has been restarted successfully.'
+    createspawn-message: '&aThe spawn has been created correctly.'
+    fall-message: '&cYou have fallen into the void.'
+    no-spawn-message: '&cThe place of spawn does not exist.'
+    wrongcommand: '&cThat command doesn’t exist.'
+    no-permission: '&cYou don’t have permission to execute that command.'

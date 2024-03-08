@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1709862329854
+  login: 1709861178805
+money: '0'
+last-account-name: hey12
+logoutlocation:
+  world: 7fa8cc01-1716-4165-bb71-070a80afb1d4
+  world-name: MHS SMP
+  x: 2769116.078551544
+  y: 63.0
+  z: -611317.8424772086
+  yaw: -133.95004272460938
+  pitch: 3.3000082969665527
+lastlocation:
+  world: 7fa8cc01-1716-4165-bb71-070a80afb1d4
+  world-name: MHS SMP
+  x: 1.6881546300000012E7
+  y: 66.0
+  z: -2.3313849449794665E7
+  yaw: 177.3819580078125
+  pitch: 30.60000228881836

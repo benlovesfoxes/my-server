@@ -1,0 +1,60 @@
+2F51AD8FA2E1A89B7525A7C70824A606E58AFA73C0D98D6722F1393C4943CC94:
+  name: SPAWN
+  owner: 1474657b-2fba-3617-b009-6f7b348167a6
+  world: MHS SMP
+  chunks:
+    '0':
+      x: 173071
+      z: -38209
+    '1':
+      x: 173070
+      z: -38208
+    '2':
+      x: 173071
+      z: -38207
+    '3':
+      x: 173069
+      z: -38209
+    '4':
+      x: 173070
+      z: -38209
+    '5':
+      x: 173071
+      z: -38208
+    '6':
+      x: 173069
+      z: -38207
+    '7':
+      x: 173068
+      z: -38208
+    '8':
+      x: 173069
+      z: -38208
+    '9':
+      x: 173070
+      z: -38207
+    '10':
+      x: 173068
+      z: -38209
+    '11':
+      x: 173068
+      z: -38207
+  permissions:
+    FIRE_USE: NONE
+    ENTITY_DAMAGE_VEHICLE: ALL
+    VEHICLE_PLACE: NONE
+    BREAK: NONE
+    ENT_PLACE: NONE
+    ENTITY_DAMAGE_NL: NONE
+    BUILD: NONE
+    ENTITY_DAMAGE_MISC: NONE
+    MANAGE: NONE
+    ITEM_DROP: ALL
+    CHEST_OPEN: NONE
+    DELETE: NONE
+    ENTER: ALL
+    ENTITY_DAMAGE_FRIENDLY: ALL
+    INTERACT: NONE
+    ENTITY_DAMAGE_HOSTILE: ALL
+    EXPLODE: NONE
+  users: {}

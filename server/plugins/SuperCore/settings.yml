@@ -1,0 +1,51 @@
+# SuperCore by Stefan923
+
+Languages:
+  Default Language: lang_en.yml
+  Available Languages:
+  - lang_en.yml
+Enabled Commands:
+  AdminChat: true
+  Broadcast: true
+  DonorChat: true
+  Fly: true
+  Gamemode: true
+  God: true
+  Heal: true
+  HelpOp: true
+  Language: true
+  List: true
+  Nick: true
+  Seen: true
+  Tp: true
+  TpToggle: true
+  WhoIs: true
+Command Cooldowns:
+  AdminChat: 5
+  DonorChat: 10
+  HelpOp: 10
+  Nick: 60
+Command:
+  List:
+    Group Permissions:
+    - supercore.list.default
+    - supercore.list.admin
+    - supercore.list.donor
+Nick:
+  Maximum Length: 16
+On Join:
+  Enable Join Message: true
+On Quit:
+  Enable Quit Message: true
+Storage:
+  MySQL:
+    Enable: false
+    IP Adress: 127.0.0.1
+    Port: 3306
+    Database Name: yourDatabase
+    User: yourUser
+    Password: yourPassword
+Update Checker:
+  Enable:
+    On Plugin Enable: true
+    On Join: true

@@ -1,0 +1,153 @@
+# ###############################
+# #                             #
+# # TrollV4.5.18 by Presti       #
+# # Custome Message File        #
+# #                             #
+# ###############################
+nopermission: You do not have the permission for this command!
+noonline: This Player is not online!
+command:
+  troll:
+    default: Troll Menu has been opened!
+    help:
+      line:
+        '1': TrollV4 by Presti
+        '2': Troll Mode &aActive!
+        '3': Troll Vanish &aActive!
+        '4': '&4Commands:'
+        '5': '&4Player Troll GUI &8- &c/troll'
+        '6': '&4Server Troll GUI &8- &c/troll server'
+        '7': '&4Item Troll GUI &8- &c/troll items'
+        '8': '&4Troll Vanish &8- &c/troll v'
+        '9': '&4Gamemode &8- &c/troll gm'
+        '10': '&4Fly &8- &c/troll fly'
+        '11': '&4Changelog &8- &c/troll changelog'
+        '12': '&4Credits &8- &c/troll credits'
+    gm: Youre now in Gamemode 1!
+    fly:
+      'on': You can fly now!
+      'off': You cant fly anymore!
+    vanish:
+      'on': Youre now in Vanish!
+      'off': Youre not longer in Vanish!
+    items: Item Troll Inv was opened!
+    server: Server Troll Inv was opened!
+    notfound:
+      line:
+        '1': '&8>'
+        '2': Troll V4 [VERSION]
+        '3': All Commands /troll help
+        '4': TrollV4 by
+        '5': Presti
+        '6': '&8>'
+    wrongargs: Unknown arguments please use /troll help
+    noplayer: Youre not a Player!
+gui:
+  mlg: You let the Player &c[PLAYER] &2do an &cMLG&2!
+  explode: You made the Player &c[PLAYER] &2explode!
+  fakehack:
+    'on': You made the Player &c[PLAYER] &2hack!
+    'off': You forced the Player &c[PLAYER] &2to stop!
+  demo: The Player &c[PLAYER] &2is now seeing a Demo screen!
+  strike: You hit the Player &c[PLAYER] &2with a lightning bolt!
+  hackuser: The hacking process starts!
+  rocket: You made the Player &c[PLAYER] &2fly like a rocket!
+  spam: You've completely blundered the Player &c[PLAYER]&2!
+  startcontrol:
+    start: Youre Controlling &c[PLAYER]&2!
+    cantcontrol: You cant control this Player!
+    yourself: You cant control yourself!
+    iscontroled: The player is already controlled!
+    alreadyc: You already control someone else!
+  stopcontrol:
+    stop: You stopped Controlling &c[PLAYER]&2!
+    nocontrol: You control nobody!
+  fakeop:
+    default: You Fakeopped &c[PLAYER]&2!
+    opm: '&7&o[Server: Opped [PLAYER]]'
+  crash:
+    default: You let the Player &c[PLAYER] &2Crash!
+    message: 'java.net.ConnectException: Connection timed out: No further information'
+  freeze:
+    'on': You freezed the Player &c[PLAYER]&2!
+    'off': You unfreezed the Player &c[PLAYER]&2!
+  anticheat:
+    default: The Anticheat started detecting &c[PLAYER]&2!
+    detected: '&7[&cPrestige&7-&cAntiCheat&7] &2Stop &cHacking(SPEED) &7[&1VL&7/&620&7]'
+  lag:
+    'on': The User &c[PLAYER] &2is now lagging!
+    'off': The User &c[PLAYER] &2stopped lagging
+  arrest: The User &c[PLAYER] &2is Arrested!
+  rotate:
+    'on': The User &c[PLAYER] &2started rotating!
+    'off': The User &c[PLAYER] &2stopped rotating!
+  rndmtp:
+    'on': The User &c[PLAYER] &2starts to be teleported through the air!
+    'off': The User &c[PLAYER] &2stops to be teleported through the air!
+  tnttrace:
+    'on': Behind the User &c[PLAYER] &2now a trace of TnT spawned!
+    'off': Behind the User &c[PLAYER] &2no trace of TnT is spawned anymore!
+  wtf: The User &c[PLAYER] &2is going crazy!
+  webtrap: The User &c[PLAYER] &2is now stucked in Cobweb!
+  lsd: The User &c[PLAYER] &2is now seeing the World in another Perspectiv!
+  guardian: The User &c[PLAYER] &2now has the Guardian effect!
+  herobrine:
+    'on': The User &c[PLAYER] &2is now Herobrine!
+    'off': The User &c[PLAYER] &2isnt anymore Herobrine!
+  arrowspam:
+    'on': The User &c[PLAYER] &2is now getting spammend by Arrows!
+    'off': The User &c[PLAYER] &2is now not getting spammend by Arrows anymore!
+  tornado:
+    'on': The User &c[PLAYER] &2is now getting chased by a tornado!
+    'off': The User &c[PLAYER] &2is no longer pursued by a tornado!
+  fakeinv:
+    default: The User &c[PLAYER] &2lost his Inventory for 5 Seconds!
+    cancel: The User &c[PLAYER] &2got his Inventory back!
+  noinv:
+    'on': The User &c[PLAYER] &2cant open any Inventory anymore!
+    'off': The User &c[PLAYER] &2can open any Inventory again!
+  slipperyhands:
+    'on': The User &c[PLAYER] &2played with some butter!
+    'off': The User &c[PLAYER] &2cleaned his hands!
+  tntworld:
+    default: The User &c[PLAYER] &2now sees only TnT in his World!
+  rickroll:
+    default: The User &c[PLAYER] &2is getting rickrolled!
+    ishearing: The User &c[PLAYER] &2is already getting rickrolled!
+  dontstopjumping:
+    'on': The User &c[PLAYER] &2cant stop jumping!
+    'off': The User &c[PLAYER] &2has stopped jumping!
+  deaf:
+    'on': The User &c[PLAYER] &2cant hear anything anymore!
+    'off': The User &c[PLAYER] &2can hear something again!
+  confused:
+    'on': The User &c[PLAYER] &2is now confused!
+    'off': The User &c[PLAYER] &2got some milk!
+  anvils:
+    'on': Anvils now fall on player &c[PLAYER]&2!
+    'off': Anvils no longer fall on the player &c[PLAYER]&2!
+  cows: Aggressive cows are now attacking &c[PLAYER]&2!
+  giorno:
+    'on': Giorno Giovanna now attacks &c[PLAYER]&2!
+    'off': Giorno Giovanna now leaves &c[PLAYER] &2alone!
+  spooky:
+    'on': The player &c[PLAYER] &2is now in the Shadow Realm!
+    'off': The player &c[PLAYER] &2is no longer in the Shadow realm!
+    world: There is no world called "SpookyWorld"!
+  endcredits: The player &c[PLAYER] &2now sees the end credits!
+  tpall: All players were teleported to you!
+  fakeleave:
+    default: A Fake Message has been Posted in the Chat!
+    message: '&6[PLAYER] left the Game.'
+  hackserver: The hacking process starts!
+  loading: The player &c[PLAYER] &2is now seeing the loading screen till they restart!
+  vomit:
+    'on': The player &c[PLAYER] &2can't stop vomiting!
+    'off': The player &c[PLAYER] &2stopped vomiting!
+  hackeser: Couldnt find us.gui.hackeser! (Regenerate message.yml)
+  confesed:
+    'on': Couldnt find us.gui.confesed.on! (Regenerate message.yml)
+    'off': Couldnt find us.gui.confesed.off! (Regenerate message.yml)
+control:
+  world: '&4SWITCHED WORLDS'
+  distance: '&4TOO FAR AWAY'
