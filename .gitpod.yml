@@ -1,3 +1,5 @@
+image:
+  file: .gitpod.Dockerfile
 ports:
   - port: 8081
     onOpen: open-preview
