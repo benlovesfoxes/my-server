@@ -1,22 +1,23 @@
-# Use an official Ubuntu runtime as a parent image
-FROM ubuntu:18.04
+# Use an official openjdk runtime as a parent image
+FROM openjdk:8-jre
 
-# Set the working directory to /app
-WORKDIR /app
+# Set the working directory to /server
+WORKDIR /server
 
-# Copy the current directory contents into the container at /app
-COPY . /app
+# Download Spigot 1.8
+RUN mkdir /server/plugins
+ADD https://cdn.getbukkit.org/spigot/spigot-1.8-R0.1-SNAPSHOT-latest.jar /server/spigot.jar
 
-# Install any needed packages specified in requirements.txt
+# Install required dependencies
 RUN apt-get update && apt-get install -y \
-    python3 \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
-# Make port 80 available to the world outside this container
-EXPOSE 80
+# Clone your EaglerCraft server repository
+RUN git clone <https://github.com/benlovesfoxes/my-server/tree/main> /server/plugins
 
-# Define environment variable
-ENV NAME World
+# Expose port 8081
+EXPOSE 8081
 
-# Run app.py when the container launches
-CMD ["python3", "app.py"]
+# Start the EaglerCraft server
+CMD ["java", "-jar", "/server/spigot.jar"]
