@@ -1,6 +1,6 @@
 #!/bin/bash
 exit
-SRV=$(dialog --menu "Choose a server software:\n(or cancel for no change)\nUse arrow keys and enter to select:" 12 40 3 1 "Paper 1.8.8 (recommended)" 2 "nPaper 1.7 (faster)" 3 "Cuberite (fastest)" --output-fd 1)
+SRV=$(dialog --menu "Choose a server software:\n(or cancel for no change)\nUse arrow keys and enter to select:" 12 40 3 1 "Carbon 1.8.8 (recommended)" 2 "nPaper 1.7 (faster)" 3 "Cuberite (fastest)" --output-fd 1)
 
 clear
 
@@ -8,7 +8,7 @@ case $SRV in
   1)
     echo "Switching to Paper 1.8.8..."
     rm /tmp/server.jar
-    cp misc/paper-1.8.8.jar /tmp/server.jar
+    cp misc/carbon.jar /tmp/server.jar
     rm server/plugins/Carbon.jar
     rm server/plugins/Carbon-ProtocolLib.jar
     ;;
